@@ -32,7 +32,7 @@ df = df.astype(
 df = df[['tx_hash', 'from_address', 'to_address', 'value', 'value_quote', 'gas_quote']]
 df.value = df.value / 10 ** 18 # valor em ETH
 
-# my_wallet = '0x55B37193a91FBd38806b699C02df8C65b9d45500'
+# my_wallet = ''
 # df_mywallet = handle_wallet(df, my_wallet)
 # print(df_mywallet)
 
